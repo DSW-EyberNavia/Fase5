@@ -1,0 +1,25 @@
+header{
+    background: black;
+    color: white;
+    text-align: center;
+    
+       
+}
+
+.caja1 {
+    background-color: rgb(45, 52, 59);
+    color: rgb(253, 253, 253);
+    text-align: center;
+    
+}
+
+.contenido{
+    background: rgb(148, 146, 146);
+    color: white;
+    border: solid 2px black;
+    margin: 15px auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+

@@ -1,0 +1,130 @@
+   body
+   
+   .grid-estilo{
+    display:grid;
+    gap: 10px;
+
+   }
+
+
+
+
+    .caja{
+    
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    border-radius: 10px;
+    border: solid 5px rgb(243, 241, 241);
+    color: white;
+    
+    }
+
+    .Menú{
+
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(5, 5, 5);
+    flex-wrap: wrap;
+    border: solid 2px rgb(255, 253, 253);
+    width: 45%;
+    margin: 60px auto;
+    border-radius: 10px;
+   
+    
+    }
+
+    .Menú li a{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    
+
+    }
+
+    .Menú li a:hover{
+   
+
+   font-style: normal;
+   text-decoration: none;
+   display: block;
+
+    }
+
+
+
+    .Submenú{
+
+        background-color: rgb(3, 3, 3);
+        position: absolute;
+        text-decoration: none;
+        padding: 0%;
+        border: solid 2px black;
+        flex-flow: row wrap;
+        display: none;
+        border-radius: 5px;
+        color: white;
+    }
+   
+    .Menú Li:hover .Submenú{
+        display: block;
+        color: black; 
+        justify-content: space-evenly;
+
+    }
+    
+    .aside{
+        
+        text-align: center;
+        list-style: none;
+        background-color: rgb(216, 216, 216);
+        border: solid 2px black;
+        width: 15%;
+        margin: 60px auto;
+        border-radius: 40px;
+        color: rgb(0, 0, 0);
+    }
+
+    .aside1{
+        
+        
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(5, 5, 5);
+        flex-wrap: wrap;
+        border: solid 2px rgb(255, 253, 253);
+        width: 45%;
+        margin: 60px auto;
+        border-radius: 10px;
+        color: white;
+   
+
+      
+    }
+
+
+
+
+    .footer{
+
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        justify-content: center;
+        border-radius: 10px;
+        border: solid 5px gray;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;      
+        bottom: 0%;   
+        width: 100%;
+        color: white;
+    }
+
+
+        
+    
